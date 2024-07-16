@@ -49,6 +49,14 @@ Proyek ini berisi beberapa stored procedures yang dapat digunakan untuk berbagai
    ```sql
    EXEC dbo.usp_add_country('IND','Indonesia','3');
 
+### Melihat Data menggunakan Views
+
+Views dapat digunakan untuk melihat data yang ada dalam format yang lebih terstruktur. Berikut adalah contoh cara menggunakan views
+
+1. **vw_employee_details**: Untuk melihat data employee secara detail. 
+   ```sql
+   SELECT * FROM vw_employee_details;
+
 ### Menggunakan User Defined Functions
 
 Mencakup beberapa user defined functions yang mendukung agar stored procedures berjalan. Berikut adalah contoh cara menggunakan user defined functions:
@@ -57,11 +65,6 @@ Mencakup beberapa user defined functions yang mendukung agar stored procedures b
  ```sql
    SELECT dbo.func_country_format('Indonesia');
 
-### Melihat Data menggunakan Views
-
-Views dapat digunakan untuk melihat data yang ada dalam format yang lebih terstruktur. Berikut adalah contoh cara menggunakan views
-
-1. **vw_employee_details**: 
 
 
 
