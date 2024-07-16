@@ -1,0 +1,5 @@
+SELECT [JOB_ID]
+      ,[JOB_TITLE]
+      ,[MIN_SALARY]
+      ,[MAX_SALARY]
+  FROM [dbo].[v_job]
