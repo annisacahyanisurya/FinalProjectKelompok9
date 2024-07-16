@@ -64,10 +64,3 @@ Mencakup beberapa user defined functions yang mendukung agar stored procedures b
 1. **func_country_format**: Untuk memastikan bahwa value input atau nama negara tidak boleh mengandung karakter spesial. Function akan mengembalikan nilai 1 apabila sesuai dengan requirement dan akan mengembalikan nilai 0 apabila input value salah. 
  ```sql
    SELECT dbo.func_country_format('Indonesia');
-
-
-
-
-
-
-
